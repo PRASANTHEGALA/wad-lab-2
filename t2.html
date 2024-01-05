@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <style>
+    /* Your existing styles here */
+
+    body {
+      /* Updated body style for a blue background */
+      background-color: #3498db; /* Change to your preferred shade of blue */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Updated header style */
+    header {
+      display: flex;
+      flex-direction: row;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    #logo {
+      flex: 1;
+      text-align: left;
+    }
+
+    #headerText {
+      flex: 3;
+      text-align: center;
+    }
+
+    /* Updated navigation style */
+    nav {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping for multiple rows */
+      background-color: #444;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      flex: 1;
+      text-align: center;
+    }
+
+    /* Updated section style */
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .col {
+      flex: 1;
+      padding: 10px;
+    }
+
+    #frame {
+      flex: 3;
+      border: 1px solid #ccc;
+      padding: 20px;
+      overflow-y: auto; /* Enable vertical scrolling if content exceeds frame height */
+    }
+
+    /* Other styles for registration form, etc. (unchanged) */
+  </style>
+</head>
+<body>
+
+  <header>
+    <div id="logo">
+      <img src="C:\Users\prash\Downloads\OIP.jpeg" alt="Logo">
+    </div>
+    <div id="headerText">
+      <h1>It All Starts Here</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#home" target="frame">Home</a>
+    <a href="#login" target="frame">Login</a>
+    <a href="#registration" target="frame">Registration</a>
+    <a href="#catalogue" target="frame">Catalogue</a>
+    <a href="#cart" target="frame">Cart</a>
+    <a href="#contact" target="frame">Contact Us</a>
+  </nav>
+
+  <section class="container">
+    <div class="row">
+      <div class="col" id="services">
+        <a href="#service1" target="frame">Service 1</a>
+        <a href="#service2" target="frame">Service 2</a>
+        <a href="#service3" target="frame">Service 3</a>
+      </div>
+      <div class="col" id="description">
+        This is the description area.
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col" id="frame">
+        This is the frame area.
+      </div>
+    </div>
+
+    <form id="registrationForm">
+      </form>
+  </section>
+
+  <footer>
+    </footer>
+
+  </body>
+</html>
+
